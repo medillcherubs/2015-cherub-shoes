@@ -92,7 +92,7 @@
 </div>
 <div class="card effect__hover">
   <div class="card__front">
-    <img class="image" src="www.cherubs2015.org/wp-content/uploads/2015/07/Esme-1024x681.jpg">
+    <img class="image" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/Esme-1024x681.jpg">
     <span class="card__text"></span>
   </div>
   <div class="card__back">
@@ -103,7 +103,7 @@
 </div>
 <div class="card effect__hover">
   <div class="card__front">
-    <img class="image" src="www.cherubs2015.org/wp-content/uploads/2015/07/Jennifer-1024x681.jpg">
+    <img class="image" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/Jennifer-1024x681.jpg">
     <span class="card__text"></span>
   </div>
   <div class="card__back">
@@ -114,7 +114,7 @@
 </div>
 <div class="card effect__hover">
   <div class="card__front">
-    <img class="image" src="www.cherubs2015.org/wp-content/uploads/2015/07/Abigail-1024x681.jpg">
+    <img class="image" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/Abigail-1024x681.jpg">
     <span class="card__text"></span>
   </div>
   <div class="card__back">
@@ -125,7 +125,7 @@
 </div>
 <div class="card effect__hover">
   <div class="card__front">
-    <img class="image" src="www.cherubs2015.org/wp-content/uploads/2015/07/Michael-1024x681.jpg">
+    <img class="image" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/Michael-1024x681.jpg">
     <span class="card__text"></span>
   </div>
   <div class="card__back">
@@ -147,7 +147,7 @@
 </div>
 <div class="card effect__hover">
   <div class="card__front">
-    <img class="image" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/Ethan.jpg"><img src="http://www.cherubs2015.org/wp-content/uploads/2015/07/Ethan-1024x681.jpg">
+    <img class="image" src="http://www.cherubs2015.org/wp-content/uploads/2015/07/Ethan-1024x681.jpg">
     <span class="card__text"></span>
   </div>
   <div class="card__back">
@@ -186,7 +186,6 @@ h1 {
 .card {
   position: relative;
   float: left;
-  height: 228px;
   width: 32%;
   min-width: 300px;
   text-align: center;
@@ -194,13 +193,13 @@ h1 {
   margin-bottom: 6px;
 }
 
-.card__front,
+
 .card__back {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  bottom: 0;
 }
 
 .card__front,
@@ -229,7 +228,8 @@ h1 {
 .card.effect__hover:hover .card__back {
   -webkit-transform: rotateY(0);
           transform: rotateY(0);
-}</style>
+}
+</style>
 
 
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
